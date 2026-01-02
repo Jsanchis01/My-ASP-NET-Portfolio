@@ -1,0 +1,27 @@
+## Visual Studio Ignore Rules
+.vs/
+[Bb]in/
+[Oo]bj/
+out/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+## User-specific files
+*.user
+*.userosscache
+*.sln.docuser
+
+## Database files
+# Note: We are NOT ignoring .mdf so your database structure stays in the repo
+*.ldf
+*.log
+
+## Packages
+packages/
+!packages/repositories.config
+
+## OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini

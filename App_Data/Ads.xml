@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=300&amp;h=300&amp;fit=crop</ImageUrl>
+		<NavigateUrl>https://www.google.com</NavigateUrl>
+		<AlternateText>Learn Web Development</AlternateText>
+		<Keyword>Tech</Keyword>
+		<Impressions>50</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=300&amp;h=300&amp;fit=crop</ImageUrl>
+		<NavigateUrl>https://www.visualstudio.com</NavigateUrl>
+		<AlternateText>Master ASP.NET</AlternateText>
+		<Keyword>Code</Keyword>
+		<Impressions>50</Impressions>
+	</Ad>
+	<Ad>
+		<ImageUrl>
+			https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=300&amp;h=300&amp;fit=crop</ImageUrl>
+			<NavigateUrl>https://www.microsoft.com</NavigateUrl>
+			<AlternateText>Modern Workspaces</AlternateText>
+			<Keyword>Work</Keyword>
+			<Impressions>50</Impressions>
+	</Ad>
+</Advertisements>

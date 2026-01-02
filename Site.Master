@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MyWebResume.Site" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>My Web Resume</title>
+    <link href="~/StyleSheet1.css" rel="stylesheet" type="text/css" runat="server" />    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .footer {
+            text-align: center;
+            background-color: #C0C0C0;
+        }
+        .auto-style1 {
+            text-align: center;
+            background-color: #1A1A2E;
+        }
+        .auto-style2 {
+            text-align: center;
+            color: #FFFFFF;
+            background-color: #1A1A2E;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <header style="text-align: center">
+            <h1>John.Dev</h1>
+            <p>Aspiring IT Professional | Web Developer</p>
+        </header>
+        <nav>
+            <a href="Home.aspx"><span class="auto-style1">Resume</span></a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+            <a href="Projects.aspx"><span class="auto-style1">Projects</span></a>&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;            
+            <a href="Contact.aspx"><span class="auto-style1">Contact</span></a>
+        </nav>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+        </div>
+        <div class="auto-style2">
+            &copy; 2025 John Sanchis - Roll No: 154 - Mini Project Submission
+        </div>
+    </form>
+</body>
+</html>
