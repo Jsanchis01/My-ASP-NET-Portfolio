@@ -8,15 +8,15 @@ A professional, data-driven web application demonstrating the core pillars of th
 
 ### 1. Home Dashboard
 *A modern landing page built with custom CSS and Master Pages.*
-![Home Screen](Home1.png)
+![Home Screen](Screenshots/Home1.png)
 
 ### 2. The Interactive Lab
 *Using MultiView to switch between 40+ syllabus experiments seamlessly.*
-![Lab Console](Project1.png)
+![Lab Console](Screenshots/Project1.png)
 
 ### 3. Database Management (ADO.NET)
 *Live CRUD operations (Create, Read, Update, Delete) connected to SQL Server.*
-![Contact Page](Contact1.png)
+![Contact Page](Screenshots/Contact1.png)
 
 ---
 
