@@ -1,51 +1,54 @@
-# 🚀 ASP.NET WebForms Full-Stack Portfolio
+# 🚀 ASP.NET Full-Stack Portfolio: John Sanchis
 
-A professional, data-driven web application demonstrating the core pillars of the ASP.NET framework. This project integrates frontend design, server-side logic, and database management into a unified "Lab Console" interface.
-
----
-
-## 🖼️ Gallery
-
-### 1. Home Dashboard
-*A modern landing page built with custom CSS and Master Pages.*
-![Home Screen](Screenshots/Home1.png)
-
-### 2. The Interactive Lab
-*Using MultiView to switch between 40+ syllabus experiments seamlessly.*
-![Lab Console](Screenshots/Project1.png)
-
-### 3. Database Management (ADO.NET)
-*Live CRUD operations (Create, Read, Update, Delete) connected to SQL Server.*
-![Contact Page](Screenshots/Contact1.png)
+A professional web application and lab console built using **ASP.NET WebForms** and **C#**. This project serves as a unified portfolio showcasing advanced web development concepts, state management, and database integration.
 
 ---
 
-## 🛠️ Tech Stack
+## 🖼️ Project Showcase
+
+### **1. Professional Identity & Journey**
+A modern landing page featuring a custom timeline and service overview.
+| Home Dashboard | Career Journey |
+|---|---|
+| ![Home](Screenshots/Home1.png) | ![Journey](Screenshots/Home2.png) |
+
+### **2. The Interactive Lab Console**
+Custom-built interfaces to toggle between experiments seamlessly.
+| Module 1: UI Controls | Module 2: State Management |
+|---|---|
+| ![Module 1](Screenshots/Module1.png) | ![Module 2](Screenshots/Module2.png) |
+
+### **3. Data Management (ADO.NET)**
+Full implementation of Connected and Disconnected architectures using SQL Server.
+| Dataset Integration | Contact Form Logic |
+|---|---|
+| ![Module 3](Screenshots/Module3.png) | ![Contact Success](Screenshots/Contact2.png) |
+
+### **4. Backend & Database Structure**
+The architectural backbone of the application.
+| Database Schema | Contacts Data Table |
+|---|---|
+| ![Schema](Screenshots/Database.png) | ![Table](Screenshots/ContactsTable.png) |
+
+---
+
+## 🛠️ Technical Stack
 - **Backend:** C# (.NET Framework 4.7.2)
-- **Frontend:** ASP.NET Web Forms, CSS3 (Custom UI)
+- **Frontend:** ASP.NET Web Forms, CSS3 (Modern Glassmorphism UI), Master Pages
 - **Database:** SQL Server (LocalDB) via ADO.NET
-- **Tools:** Visual Studio, Git Bash, GitHub
+- **Version Control:** Git & GitHub
 
+## 📋 Module Overview
+- **Module 1:** Dynamic CSS controls, File Uploads, and Navigation.
+- **Module 2:** ViewState, Sessions, Cookies, and AJAX timers.
+- **Module 3:** ADO.NET CRUD, GridView management, and Stored Procedures.
+- **Module 4 & 5:** Web Services, User Controls, and Form Validation.
 
-
-## 📋 Module Breakdown
-- **Module 1 & 2:** Standard UI Controls, State Management (ViewState/Session), and Event Handling.
-- **Module 3 (Data):** Implementation of **Connected & Disconnected architecture** to manage student records.
-- **Module 4:** Component-based development using **User Controls** and consuming **ASMX Web Services**.
-- **Module 5:** Secure input handling using the **ASP.NET Validation Framework**.
-
-## ⚙️ Key Features
-- **Master Page Architecture:** Ensures a consistent header, navigation, and footer across the site.
-- **Validation Summary:** Centralized error reporting for high-quality user experience.
-- **Global.asax:** Implementation of a real-time site visitor counter.
-- **Clean Code:** Separation of concerns using the Code-Behind model (.aspx.cs).
-
-## 🚀 How to Run
-1. Clone the repo: `git clone https://github.com/Jsanchis01/My-ASP-NET-Portfolio.git`
+## 🚀 How to Run Locally
+1. Clone the repository.
 2. Open the `.sln` file in **Visual Studio**.
-3. Rebuild the solution to restore any packages.
-4. Ensure `App_Data/Database1.mdf` is attached to your SQL LocalDB instance.
-5. Press `Ctrl + F5` to launch.
+3. Ensure the `Database1.mdf` in `App_Data` is connected in Server Explorer.
+4. Press `Ctrl + F5` to launch.
 
 ---
-Developed by **Jsanchis01** as part of the Advanced Web Development Lab.
+**Developed by John Sanchis** *Aspiring IT Professional | Full Stack Developer*
